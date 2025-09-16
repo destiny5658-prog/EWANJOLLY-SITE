@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - EWANJOLLY</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #e63946;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card h3 {
+      color: #222;
+      margin-bottom: 15px;
+    }
+    .service-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>EWANJOLLY ENGINEERING LIMITED</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Services</h1>
+    <div class="services-grid">
+      
+      <!-- Service 1 -->
+      <div class="service-card">
+        <h3>Steel Fabrication</h3>
+        <p>Custom fabrication of steel structures including beams, trusses, columns, and welded components for residential, commercial, and industrial projects.</p>
+      </div>
+      
+      <!-- Service 2 -->
+      <div class="service-card">
+        <h3>Roofing Solutions</h3>
+        <p>Durable roofing installation for warehouses, factories, homes, and offices. We use modern waterproofing and anti-rust technology to ensure long-lasting protection.</p>
+      </div>
+      
+      <!-- Service 3 -->
+      <div class="service-card">
+        <h3>Structural Steel Erection</h3>
+        <p>Professional on-site assembly and erection of steel structures. Our expert team ensures safety, accuracy, and compliance with industry standards.</p>
+      </div>
+      
+      <!-- Service 4 -->
+      <div class="service-card">
+        <h3>Maintenance & Repairs</h3>
+        <p>We provide inspection, reinforcement, and repair of existing steel and roofing structures to extend their lifespan and maintain safety.</p>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> EWANJOLLY ENGINEERING LIMITED. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
