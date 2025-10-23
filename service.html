@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - EWANJOLLY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-[#00356b] font-sans">
+
+  <!-- HEADER -->
+  <header class="bg-blue-500 text-white shadow-md fixed w-full top-0 left-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-5 py-3">
+      <div class="flex items-center space-x-3">
+        <img 
+          src="https://i.supaimg.com/093427c8-d85a-46da-a02f-7528caf5eb30.jpg" 
+          alt="Ewanjolly Logo" 
+          class="w-12 h-12 rounded-full border-2 border-white shadow-md"
+        />
+        <h1 class="text-lg md:text-xl font-bold">EWANJOLLY ENGINEERING LTD</h1>
+      </div>
+
+      <!-- Hamburger -->
+      <button id="menu-toggle" class="md:hidden flex flex-col space-y-1.5 focus:outline-none">
+        <span class="w-6 h-0.5 bg-white"></span>
+        <span class="w-6 h-0.5 bg-white"></span>
+        <span class="w-6 h-0.5 bg-white"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav id="nav-links" class="hidden md:flex space-x-6 font-semibold">
+        <a href="index.html" class="hover:text-red-300">Home</a>
+        <a href="about.html" class="hover:text-red-300">About</a>
+        <a href="project.html" class="hover:text-red-300">Projects</a>
+        <a href="service.html" class="hover:text-red-300">Services</a>
+        <a href="contact.html" class="hover:text-red-300">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden bg-blue-600 md:hidden flex flex-col text-center space-y-3 py-3">
+      <a href="index.html" class="block hover:text-red-300">Home</a>
+      <a href="about.html" class="block hover:text-red-300">About</a>
+      <a href="project.html" class="block hover:text-red-300">Projects</a>
+      <a href="service.html" class="block hover:text-red-300">Services</a>
+      <a href="contact.html" class="block hover:text-red-300">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-blue-600 text-white text-center py-20 mt-16">
+    <h2 class="text-4xl font-bold mb-4">Our Professional Services</h2>
+    <p class="max-w-xl mx-auto text-lg mb-6">
+      Delivering excellence in <span class="font-semibold">Fabrication, Erection, and Roofing</span> — built on trust and precision.
+    </p>
+    <a href="contact.html" class="bg-white text-blue-600 font-semibold px-6 py-2 rounded-lg hover:bg-blue-100 transition">
+      Get a Free Quote
+    </a>
+  </section>
+
+  <!-- SERVICES GRID -->
+  <main class="max-w-7xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">What We Do Best</h2>
+
+    <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Service 1 -->
+      <div class="bg-blue-400 text-white rounded-xl p-6 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+        <h3 class="text-xl font-semibold mb-3">🔧 Steel Fabrication</h3>
+        <p class="text-sm leading-relaxed">
+          Custom fabrication of steel structures including beams, trusses, and welded components for residential, commercial, and industrial projects.
+        </p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="bg-[#00356b] text-white rounded-xl p-6 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+        <h3 class="text-xl font-semibold mb-3">🏗️ Roofing Solutions</h3>
+        <p class="text-sm leading-relaxed">
+          Durable roofing installations for warehouses, factories, and homes using advanced waterproofing and anti-rust technology.
+        </p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="bg-blue-400 text-white rounded-xl p-6 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+        <h3 class="text-xl font-semibold mb-3">🏠 Structural Steel Erection</h3>
+        <p class="text-sm leading-relaxed">
+          Safe and precise on-site erection of steel frameworks — ensuring durability and compliance with engineering standards.
+        </p>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="bg-[#00356b] text-white rounded-xl p-6 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+        <h3 class="text-xl font-semibold mb-3">🧰 Maintenance & Repairs</h3>
+        <p class="text-sm leading-relaxed">
+          Structural inspection, reinforcement, and repair services to extend the life of your steel and roofing systems.
+        </p>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="bg-blue-400 text-white rounded-xl p-6 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+        <h3 class="text-xl font-semibold mb-3">🏢 Project Consultation</h3>
+        <p class="text-sm leading-relaxed">
+          Expert consultation and design guidance for industrial and commercial construction projects.
+        </p>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="bg-[#00356b] text-white rounded-xl p-6 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+        <h3 class="text-xl font-semibold mb-3">⚙️ Welding & Metal Works</h3>
+        <p class="text-sm leading-relaxed">
+          Professional welding, cutting, and customized metal works tailored to meet your unique structural needs.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-500 text-white text-center py-6">
+    <p>© <span id="year"></span> EWANJOLLY ENGINEERING LIMITED. All rights reserved.</p>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    // Auto-update footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Menu Toggle
+    const toggleBtn = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    toggleBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Fade-in Animation for Service Cards
+    const cards = document.querySelectorAll('.grid > div');
+    cards.forEach((card, i) => {
+      card.style.opacity = 0;
+      card.style.transform = 'translateY(40px)';
+      setTimeout(() => {
+        card.style.transition = 'all 0.8s ease';
+        card.style.opacity = 1;
+        card.style.transform = 'translateY(0)';
+      }, i * 150);
+    });
+  </script>
+
+</body>
+</html>
